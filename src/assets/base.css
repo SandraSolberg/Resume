@@ -38,6 +38,12 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
+
+  /*  break points */
+  --break-point-sm: 40rem;
+  --break-point-md: 48rem;
+  --break-point-lg: 64rem;
+  --break-point-xl: 80rem;
 }
 
 @media (prefers-color-scheme: dark) {

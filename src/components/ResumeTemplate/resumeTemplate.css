@@ -1,0 +1,85 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-background-white);
+
+  @media (min-width: 768px) {
+    margin: 2.5rem 0;
+    flex-direction: row;
+  }
+
+  .heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .leftContainer {
+    flex-basis: 40%;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: var(--color-background-gray);
+  }
+
+  .rightContainer {
+    flex-basis: 60%;
+    padding: 2rem;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .contentItems {
+    width: fit-content;
+    margin: 1rem 0;
+  }
+
+  .flexCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .companyInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textStart {
+    text-align: start;
+  }
+
+  .contactItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: start;
+    margin: 1rem 0;
+  }
+
+  .bold {
+    font-weight: 500;
+  }
+
+  .sectionBlock {
+    text-align: start;
+    padding: 1rem;
+  }
+
+  .educationBlock {
+    padding: 1rem;
+  }
+
+  .projectBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
