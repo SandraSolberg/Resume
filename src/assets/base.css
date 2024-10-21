@@ -21,6 +21,7 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 
   --vt-c-gray-soft: #f6f6f6;
+  --vt-c-gray-dark: #5c5c5c;
 }
 
 /* semantic color variables for this project */
@@ -49,6 +50,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
+    --color-background-white: var(--vt-c-black-soft);
+    --color-background-gray: var(--vt-c-gray-dark);
     --color-background-soft: var(--vt-c-black-soft);
     --color-background-mute: var(--vt-c-black-mute);
 
